@@ -1,0 +1,53 @@
+body{
+    background-image: url(pattern3);
+}
+.container-1{
+    border: 1px solid black;
+    padding-top: 25px;
+    background-image: url(pattern2.png);
+    margin: 0 auto;
+    padding: 40px;
+    width: 75%;
+}
+
+header{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.flex-box-container-1{
+
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid red;
+    align-items: center;
+}
+.footer{
+ 
+    margin: auto;
+    width: 77%;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    justify-content: space-between;
+}
+.footer a{
+   letter-spacing: 50px;
+}
+.footer a:hover{
+    color: black;
+}
